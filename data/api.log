@@ -1,0 +1,8 @@
+2024-04-04 08:17:52,683 - root - INFO - Received a request to /classify_product endpoint
+2024-04-04 08:17:52,683 - root - INFO - Input received: cnae_number='4722902' item_description=['sal grosso cisne 1kg', 'gasolina comum'] provider='google'
+2024-04-04 08:17:54,385 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-04-04 08:17:54,495 - root - INFO - Response: 200 [{'product': 'sal grosso cisne 1kg', 'type': 'Direto'}, {'product': 'gasolina comum', 'type': 'Indireto'}]
+2024-04-04 08:55:45,547 - root - INFO - Received a request to /classify_product endpoint
+2024-04-04 08:55:45,687 - root - INFO - Input received: cnae_number='4722902' item_description=['sal grosso cisne 1kg', 'gasolina comum'] provider='google'
+2024-04-04 08:55:47,265 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-04-04 08:55:47,274 - root - INFO - Response: 200 [{'product': 'sal grosso cisne 1kg', 'type': 'Direto'}, {'product': 'gasolina comum', 'type': 'Indireto'}]
